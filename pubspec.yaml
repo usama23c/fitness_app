@@ -1,0 +1,125 @@
+name: fitness_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.5
+  fluttertoast: ^8.2.12
+
+  # 🔹 Firebase (latest stable versions for Dart 3.4)
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.4
+  firebase_database: ^11.1.4
+
+  # 🔹 Google Maps & Location
+  google_maps_flutter: ^2.10.1
+  location: ^7.0.1
+
+  # 🔹 UI & Charts
+  percent_indicator: ^4.2.5
+  fl_chart: ^0.69.0
+  table_calendar: ^3.0.9
+  intl: ^0.20.2
+
+  # 🔹 Media
+  image_picker: ^1.0.4
+
+  # 🔹 Map plugins
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  flutter_map_cancellable_tile_provider: ^2.0.0
+
+  # 🔹 Device preview & Auth
+  device_preview: ^1.3.1
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^7.1.2
+  flutter_web_auth_2: ^4.1.0
+
+  # 🔹 Utils & Icons
+  http: ^1.5.0
+  font_awesome_flutter: ^10.9.1
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/splash/backlock.png
+    - assets/images/splash/logo.png
+    - assets/images/splash/home_banner.png
+    - assets/images/splash/resetback.png
+    - assets/images/splash/activity_back.png
+
+    # Workout assets
+    - assets/images/body/workout_bg.jpeg
+    - assets/images/body/full_body.png
+
+    # Muscle Group Workouts
+    - assets/images/workouts/chest.png
+    - assets/images/workouts/back.png
+    - assets/images/workouts/legs.png
+    - assets/images/workouts/arms.png
+    - assets/images/workouts/shoulders.png
+    - assets/images/workouts/abs.png
+
+    # Nutrition assets
+    - assets/images/nutrition/nutrition_bg.jpeg
+    - assets/images/nutrition/image1.png
+
+    # Gender assets
+    - assets/images/body/male_background.png
+    - assets/images/body/female_background.png
+
+    # Activity tracking
+    - assets/images/RunApp/activity_bg.jpg
+
+    # AI features
+    - assets/images/body/ai_coach_bg.png
+
+    # Authentication/social
+    - assets/icons/facebook.png
+    - assets/icons/instagram.png
+    - assets/icons/google.png
+    - assets/icons/github.png
+
+    # Dashboard categories
+    - assets/icons/hydration.jpg
+    - assets/icons/score.jpg
+    - assets/icons/calorie.jpg
+
+    # Female body images
+    - assets/images/femalebody/AbsWorkout.png
+    - assets/images/femalebody/FullBody.png
+    - assets/images/femalebody/LegWorkout.png
+    - assets/images/femalebody/maleChest.png
+    - assets/images/femalebody/guest.png
+    - assets/images/femalebody/femaleFullBody.png
+    - assets/images/femalebody/femaleUpperBody.png
+
+    # Fruits
+    - assets/images/fruits/almond.png
+    - assets/images/fruits/nutritionheader.png
+    - assets/images/fruits/cherries.png
+    - assets/images/fruits/cranberry.png
+    - assets/images/fruits/kiwi.png
+    - assets/images/fruits/persimmon.png
+    - assets/images/fruits/strawber.png
+    - assets/images/fruits/water.png
+    - assets/images/fruits/apple.png
+    - assets/images/fruits/vegetables.png
+    - assets/images/fruits/vegetarian.png
+    - assets/images/fruits/meat.png
+    - assets/images/fruits/foodScanBackground1.png
